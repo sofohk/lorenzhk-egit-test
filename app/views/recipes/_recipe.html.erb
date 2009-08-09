@@ -1,0 +1,21 @@
+<p>
+  <b>Title:</b>
+  <%=h @recipes.first.title %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%=h @recipes.first.author %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @recipes.first.description %>
+</p>
+<% unless @recipes.first.tag_list.empty? %>
+<p class="tags">
+  <b>Tag:</b>
+  <%=h @recipes.first.tag_list %>
+  <%# render :partial => @recipe.tags %>
+</p>
+<% end %>

@@ -5,6 +5,7 @@
     <th>Title</th>
     <th>Author</th>
     <th>Description</th>
+	<th>Tag</th>
   </tr>
 
 <% @recipes.each do |recipe| %>
@@ -12,6 +13,7 @@
     <td><%=h recipe.title %></td>
     <td><%=h recipe.author %></td>
     <td><%=h recipe.description %></td>
+	<td><%=h recipe.tag_list %></td>
     <td><%= link_to 'Show', recipe %></td>
     <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
     <td><%= link_to 'Destroy', recipe, :confirm => 'Are you sure?', :method => :delete %></td>

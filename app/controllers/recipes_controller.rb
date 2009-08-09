@@ -41,6 +41,7 @@ class RecipesController < ApplicationController
   # POST /recipes.xml
   def create
     @recipe = Recipe.new(params[:recipe])
+    Time.now
 
     respond_to do |format|
       if @recipe.save

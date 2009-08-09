@@ -31,3 +31,1248 @@ Migrating to CreateRecipes (20090731171559)
   [4;35;1mSQL (234.9ms)[0m   [0mSHOW FIELDS FROM `tickets`[0m
   [4;36;1mSQL (226.3ms)[0m   [0;1mdescribe `tickets`[0m
   [4;35;1mSQL (225.5ms)[0m   [0mSHOW KEYS FROM `tickets`[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:53:22) [GET]
+  [4;36;1mRecipe Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (369.7ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:53:26) [GET]
+  [4;35;1mRecipe Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:53:30) [GET]
+  [4;36;1mRecipe Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:53:54) [GET]
+  [4;35;1mRecipe Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (105.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:54:25) [GET]
+  [4;36;1mRecipe Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:54:47) [GET]
+  [4;35;1mRecipe Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (92.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:54:50) [GET]
+  [4;36;1mRecipe Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" ):
+  app/controllers/recipes_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (49.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (305.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 04:55:15) [GET]
+  [4;35;1mRecipe Load (335.6ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+Completed in 440ms (View: 99, DB: 641) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (305.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2009-08-01 04:55:21) [GET]
+  [4;35;1mRecipe Columns (295.5ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 332ms (View: 33, DB: 601) | 200 OK [http://0.0.0.0/recipes/new]
+  [4;36;1mSQL (308.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2009-08-01 04:55:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"VOTXXzW8vUdFbhiBzqqKr0OK5JDGT5s6eDQLarSeEng=", "recipe"=>{"title"=>"Product", "author"=>"Lorenz", "description"=>"This is good"}}
+  [4;35;1mRecipe Columns (231.8ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (224.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecipe Create (529.2ms)[0m   [0mINSERT INTO `recipes` (`updated_at`, `title`, `author`, `description`, `created_at`) VALUES('2009-07-31 20:55:35', 'Product', 'Lorenz', 'This is good', '2009-07-31 20:55:35')[0m
+  [4;36;1mSQL (305.9ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/recipes/1
+Completed in 1327ms (DB: 1599) | 302 Found [http://0.0.0.0/recipes]
+  [4;35;1mSQL (365.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-01 04:55:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Columns (400.4ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (307.0ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 1) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 738ms (View: 26, DB: 1073) | 200 OK [http://0.0.0.0/recipes/1]
+  [4;36;1mSQL (305.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 05:05:27) [GET]
+  [4;35;1mRecipe Load (225.7ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (226.6ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Completed in 514ms (View: 54, DB: 758) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (225.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2009-08-01 05:05:33) [GET]
+  [4;36;1mRecipe Columns (260.2ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 269ms (View: 4, DB: 485) | 200 OK [http://0.0.0.0/recipes/new]
+  [4;35;1mSQL (223.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2009-08-01 05:05:56) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"VOTXXzW8vUdFbhiBzqqKr0OK5JDGT5s6eDQLarSeEng=", "recipe"=>{"title"=>"Product", "author"=>"Ryan", "description"=>"This is a description 2"}}
+  [4;36;1mRecipe Columns (225.5ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (224.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecipe Create (223.7ms)[0m   [0;1mINSERT INTO `recipes` (`updated_at`, `title`, `author`, `description`, `created_at`) VALUES('2009-07-31 21:05:56', 'Product', 'Ryan', 'This is a description 2', '2009-07-31 21:05:56')[0m
+  [4;35;1mSQL (257.9ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/recipes/2
+Completed in 942ms (DB: 1156) | 302 Found [http://0.0.0.0/recipes]
+  [4;36;1mSQL (224.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-01 05:05:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRecipe Columns (226.3ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (224.8ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 2) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 461ms (View: 3, DB: 675) | 200 OK [http://0.0.0.0/recipes/2]
+  [4;35;1mSQL (391.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 05:07:34) [GET]
+  [4;36;1mRecipe Load (226.1ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (225.6ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Completed in 463ms (View: 5, DB: 843) | 200 OK [http://0.0.0.0/recipes]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 05:07:35) [GET]
+  [4;36;1mRecipe Load (225.3ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mSQL (223.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mRecipe Columns (271.2ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #12 of app/views/recipes/index.html.erb:
+9: 
+10: <% @recipes.each do |recipe| %>
+11:   <tr>
+12:     <td><%=h recipe.title %></td>
+13:     <td><%=h recipe.author %></td>
+14:     <td><%=h recipe.description %></td>
+15:     <td><%= link_to 'Show', recipe %></td>
+
+    app/views/recipes/index.html.erb:12
+    app/views/recipes/index.html.erb:10:in `each'
+    app/views/recipes/index.html.erb:10
+    app/controllers/recipes_controller.rb:7:in `index'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (117.3ms)
+Rendered rescues/_request_and_response (9.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (224.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2009-08-01 05:07:52) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"VOTXXzW8vUdFbhiBzqqKr0OK5JDGT5s6eDQLarSeEng=", "recipe"=>{"title"=>"Product", "author"=>"Ryan", "description"=>"This is a description 2"}}
+  [4;36;1mRecipe Columns (227.0ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (223.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecipe Create (226.3ms)[0m   [0;1mINSERT INTO `recipes` (`updated_at`, `title`, `author`, `description`, `created_at`) VALUES('2009-07-31 21:07:53', 'Product', 'Ryan', 'This is a description 2', '2009-07-31 21:07:53')[0m
+  [4;35;1mSQL (252.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/recipes/3
+Completed in 937ms (DB: 1153) | 302 Found [http://0.0.0.0/recipes]
+  [4;36;1mSQL (305.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-01 05:07:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRecipe Columns (288.8ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (306.9ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 604ms (View: 3, DB: 901) | 200 OK [http://0.0.0.0/recipes/3]
+  [4;35;1mSQL (224.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-01 05:07:58) [GET]
+  [4;36;1mRecipe Load (362.4ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (409.2ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Completed in 782ms (View: 5, DB: 995) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (307.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (307.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRecipe Columns (1130.8ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (574.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRecipe Columns (305.6ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (250.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (929.2ms)[0m   [0mSELECT * FROM `recipes` LIMIT 1[0m
+  [4;36;1mRecipe Columns (306.3ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTagging Columns (0.0ms)[0m   [0mMysql::Error: Table 'ror_mytest.taggings' doesn't exist: SHOW FIELDS FROM `taggings`[0m
+  [4;36;1mSQL (268.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (606.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1539.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateRecipes (20090731171559)
+Migrating to ActsAsTaggableMigration (20090801184201)
+  [4;35;1mSQL (604.3ms)[0m   [0mCREATE TABLE `tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (306.2ms)[0m   [0;1mCREATE TABLE `taggings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tag_id` int(11), `taggable_id` int(11), `taggable_type` varchar(255), `created_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (921.9ms)[0m   [0mCREATE INDEX `index_taggings_on_tag_id` ON `taggings` (`tag_id`)[0m
+  [4;36;1mSQL (306.0ms)[0m   [0;1mCREATE INDEX `index_taggings_on_taggable_id_and_taggable_type` ON `taggings` (`taggable_id`, `taggable_type`)[0m
+  [4;35;1mSQL (307.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090801184201')[0m
+  [4;36;1mSQL (1222.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (510.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (409.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1229.7ms)[0m   [0mSHOW FIELDS FROM `ads`[0m
+  [4;36;1mSQL (307.3ms)[0m   [0;1mdescribe `ads`[0m
+  [4;35;1mSQL (306.1ms)[0m   [0mSHOW KEYS FROM `ads`[0m
+  [4;36;1mSQL (319.8ms)[0m   [0;1mSHOW FIELDS FROM `events`[0m
+  [4;35;1mSQL (294.3ms)[0m   [0mdescribe `events`[0m
+  [4;36;1mSQL (305.4ms)[0m   [0;1mSHOW KEYS FROM `events`[0m
+  [4;35;1mSQL (307.5ms)[0m   [0mSHOW FIELDS FROM `hello_text2s`[0m
+  [4;36;1mSQL (310.2ms)[0m   [0;1mdescribe `hello_text2s`[0m
+  [4;35;1mSQL (303.1ms)[0m   [0mSHOW KEYS FROM `hello_text2s`[0m
+  [4;36;1mSQL (306.5ms)[0m   [0;1mSHOW FIELDS FROM `hello_texts`[0m
+  [4;35;1mSQL (308.1ms)[0m   [0mdescribe `hello_texts`[0m
+  [4;36;1mSQL (305.8ms)[0m   [0;1mSHOW KEYS FROM `hello_texts`[0m
+  [4;35;1mSQL (308.4ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (920.7ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (326.4ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (301.7ms)[0m   [0;1mSHOW FIELDS FROM `products_bk`[0m
+  [4;35;1mSQL (291.8ms)[0m   [0mdescribe `products_bk`[0m
+  [4;36;1mSQL (233.6ms)[0m   [0;1mSHOW KEYS FROM `products_bk`[0m
+  [4;35;1mSQL (379.2ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (307.5ms)[0m   [0;1mdescribe `recipes`[0m
+  [4;35;1mSQL (307.2ms)[0m   [0mSHOW KEYS FROM `recipes`[0m
+  [4;36;1mSQL (306.2ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mSQL (306.3ms)[0m   [0mdescribe `taggings`[0m
+  [4;36;1mSQL (307.7ms)[0m   [0;1mSHOW KEYS FROM `taggings`[0m
+  [4;35;1mSQL (306.0ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (515.3ms)[0m   [0;1mdescribe `tags`[0m
+  [4;35;1mSQL (302.3ms)[0m   [0mSHOW KEYS FROM `tags`[0m
+  [4;36;1mSQL (412.1ms)[0m   [0;1mSHOW FIELDS FROM `tickets`[0m
+  [4;35;1mSQL (305.4ms)[0m   [0mdescribe `tickets`[0m
+  [4;36;1mSQL (330.3ms)[0m   [0;1mSHOW KEYS FROM `tickets`[0m
+  [4;36;1mSQL (364.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (553.4ms)[0m   [0mSELECT * FROM `recipes` LIMIT 1[0m
+  [4;36;1mRecipe Columns (860.7ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (356.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-02 14:56:52) [GET]
+  [4;35;1mRecipe Load (378.8ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (413.3ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Completed in 911ms (View: 104, DB: 1148) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (350.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (430.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (390.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateRecipes (20090731171559)
+Migrating to ActsAsTaggableMigration (20090801184201)
+  [4;35;1mSQL (364.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (434.9ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (352.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (461.9ms)[0m   [0;1mSHOW FIELDS FROM `ads`[0m
+  [4;35;1mSQL (362.6ms)[0m   [0mdescribe `ads`[0m
+  [4;36;1mSQL (526.2ms)[0m   [0;1mSHOW KEYS FROM `ads`[0m
+  [4;35;1mSQL (357.2ms)[0m   [0mSHOW FIELDS FROM `events`[0m
+  [4;36;1mSQL (367.4ms)[0m   [0;1mdescribe `events`[0m
+  [4;35;1mSQL (385.6ms)[0m   [0mSHOW KEYS FROM `events`[0m
+  [4;36;1mSQL (838.6ms)[0m   [0;1mSHOW FIELDS FROM `hello_text2s`[0m
+  [4;35;1mSQL (352.9ms)[0m   [0mdescribe `hello_text2s`[0m
+  [4;36;1mSQL (363.6ms)[0m   [0;1mSHOW KEYS FROM `hello_text2s`[0m
+  [4;35;1mSQL (370.7ms)[0m   [0mSHOW FIELDS FROM `hello_texts`[0m
+  [4;36;1mSQL (365.0ms)[0m   [0;1mdescribe `hello_texts`[0m
+  [4;35;1mSQL (384.8ms)[0m   [0mSHOW KEYS FROM `hello_texts`[0m
+  [4;36;1mSQL (402.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (373.1ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (381.0ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (401.8ms)[0m   [0mSHOW FIELDS FROM `products_bk`[0m
+  [4;36;1mSQL (459.7ms)[0m   [0;1mdescribe `products_bk`[0m
+  [4;35;1mSQL (401.6ms)[0m   [0mSHOW KEYS FROM `products_bk`[0m
+  [4;36;1mSQL (378.6ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (377.9ms)[0m   [0mdescribe `recipes`[0m
+  [4;36;1mSQL (411.7ms)[0m   [0;1mSHOW KEYS FROM `recipes`[0m
+  [4;35;1mSQL (537.8ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mSQL (388.8ms)[0m   [0;1mdescribe `taggings`[0m
+  [4;35;1mSQL (454.0ms)[0m   [0mSHOW KEYS FROM `taggings`[0m
+  [4;36;1mSQL (493.7ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mSQL (378.6ms)[0m   [0mdescribe `tags`[0m
+  [4;36;1mSQL (404.9ms)[0m   [0;1mSHOW KEYS FROM `tags`[0m
+  [4;35;1mSQL (402.7ms)[0m   [0mSHOW FIELDS FROM `tickets`[0m
+  [4;36;1mSQL (363.4ms)[0m   [0;1mdescribe `tickets`[0m
+  [4;35;1mSQL (358.4ms)[0m   [0mSHOW KEYS FROM `tickets`[0m
+  [4;36;1mSQL (355.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (355.5ms)[0m   [0mSELECT * FROM `recipes` LIMIT 1[0m
+  [4;36;1mRecipe Columns (509.4ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTagging Columns (359.7ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (508.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mRecipe Load (3135.6ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+  [4;36;1mRecipe Load (1361.7ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test' OR recipes_tags.name LIKE 'Bowling')) [0m
+  [4;35;1mRecipe Load (401.1ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+  [4;36;1mRecipe Load (372.1ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+  [4;35;1mSQL (643.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTag Load (407.1ms)[0m   [0;1mSELECT * FROM `tags` WHERE (name LIKE 'Test') LIMIT 1[0m
+  [4;35;1mTag Columns (411.4ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (403.6ms)[0m   [0;1mSELECT `tags`.id FROM `tags` WHERE (`tags`.`name` = BINARY 'Test') LIMIT 1[0m
+  [4;35;1mTag Create (369.1ms)[0m   [0mINSERT INTO `tags` (`name`) VALUES('Test')[0m
+  [4;36;1mTagging Create (393.5ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(1, 'Recipe', 1, '2009-08-02 07:07:47')[0m
+  [4;35;1mTag Load (369.2ms)[0m   [0mSELECT * FROM `tags` WHERE (name LIKE 'Bowling') LIMIT 1[0m
+  [4;36;1mTag Load (375.7ms)[0m   [0;1mSELECT `tags`.id FROM `tags` WHERE (`tags`.`name` = BINARY 'Bowling') LIMIT 1[0m
+  [4;35;1mTag Create (358.7ms)[0m   [0mINSERT INTO `tags` (`name`) VALUES('Bowling')[0m
+  [4;36;1mTagging Create (378.2ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(2, 'Recipe', 1, '2009-08-02 07:07:49')[0m
+  [4;35;1mSQL (349.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRecipe Load (401.7ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+  [4;36;1mSQL (359.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-02 15:21:34) [GET]
+  [4;35;1mRecipe Load (431.5ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (377.1ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Completed in 842ms (View: 17, DB: 1168) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (334.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2009-08-02 15:21:39) [GET]
+  [4;36;1mRecipe Columns (484.8ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+
+ActionView::TemplateError (undefined method `taglist' for #<Recipe:0x1739834>) on line #20 of app/views/recipes/new.html.erb:
+17:   </p>
+18:   <p>
+19:     <%= f.label :taglist %><br />
+20:     <%= f.text_field :taglist %>
+21:   </p>
+22:   <p>
+23:     <%= f.submit 'Create' %>
+
+    app/views/recipes/new.html.erb:20
+    app/views/recipes/new.html.erb:3
+    app/controllers/recipes_controller.rb:29:in `new'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (25.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (347.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-02 15:23:20) [GET]
+  [4;36;1mRecipe Load (357.5ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (600.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Completed in 969ms (View: 6, DB: 1305) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (335.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2009-08-02 15:23:25) [GET]
+  [4;35;1mRecipe Columns (358.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+  [4;36;1mTagging Columns (342.3ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+Completed in 732ms (View: 25, DB: 1036) | 200 OK [http://0.0.0.0/recipes/new]
+  [4;35;1mSQL (366.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2009-08-02 15:23:41) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"Oz2xreNMK/oWQ40PJMMzLbbTWxiJHrHFin/HvglK5O4=", "recipe"=>{"title"=>"Test tag", "author"=>"tag", "description"=>"tage", "tag_list"=>"Tag, Test, Good"}}
+  [4;36;1mRecipe Columns (436.0ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (351.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecipe Create (384.9ms)[0m   [0;1mINSERT INTO `recipes` (`updated_at`, `title`, `author`, `description`, `created_at`) VALUES('2009-08-02 07:23:42', 'Test tag', 'tag', 'tage', '2009-08-02 07:23:42')[0m
+  [4;35;1mTag Load (372.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+  [4;36;1mTag Load (353.5ms)[0m   [0;1mSELECT * FROM `tags` WHERE (name LIKE 'Tag') LIMIT 1[0m
+  [4;35;1mTag Columns (348.8ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (406.4ms)[0m   [0;1mSELECT `tags`.id FROM `tags` WHERE (`tags`.`name` = BINARY 'Tag') LIMIT 1[0m
+  [4;35;1mTag Create (434.7ms)[0m   [0mINSERT INTO `tags` (`name`) VALUES('Tag')[0m
+  [4;36;1mTagging Create (355.9ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(3, 'Recipe', 4, '2009-08-02 07:23:44')[0m
+  [4;35;1mTag Load (349.2ms)[0m   [0mSELECT * FROM `tags` WHERE (name LIKE 'Test') LIMIT 1[0m
+  [4;36;1mTagging Create (457.7ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(1, 'Recipe', 4, '2009-08-02 07:23:45')[0m
+  [4;35;1mTag Load (381.2ms)[0m   [0mSELECT * FROM `tags` WHERE (name LIKE 'Good') LIMIT 1[0m
+  [4;36;1mTag Load (397.8ms)[0m   [0;1mSELECT `tags`.id FROM `tags` WHERE (`tags`.`name` = BINARY 'Good') LIMIT 1[0m
+  [4;35;1mTag Create (380.1ms)[0m   [0mINSERT INTO `tags` (`name`) VALUES('Good')[0m
+  [4;36;1mTagging Create (359.0ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(4, 'Recipe', 4, '2009-08-02 07:23:46')[0m
+  [4;35;1mSQL (338.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/recipes/4
+Completed in 6193ms (DB: 6474) | 302 Found [http://0.0.0.0/recipes]
+  [4;36;1mSQL (330.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-02 15:23:49) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mRecipe Columns (356.1ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (410.0ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 4) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 803ms (View: 31, DB: 1096) | 200 OK [http://0.0.0.0/recipes/4]
+  [4;35;1mSQL (514.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-02 15:23:57) [GET]
+  [4;36;1mRecipe Load (352.5ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (447.0ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Completed in 812ms (View: 6, DB: 1314) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (338.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (423.1ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Good')) [0m
+  [4;36;1mRecipe Columns (366.6ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (337.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-02 15:53:18) [GET]
+  [4;35;1mRecipe Load (381.0ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (399.9ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTagging Columns (358.2ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (455.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Columns (340.6ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (444.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (418.5ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (378.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 3321ms (View: 130, DB: 3513) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (324.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2009-08-05 01:32:53) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Columns (716.9ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (403.0ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 2) [0m
+Rendering template within layouts/recipes
+Rendering recipes/edit
+  [4;36;1mTag Load (234.8ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+Completed in 1867ms (View: 347, DB: 1679) | 200 OK [http://0.0.0.0/recipes/2/edit]
+  [4;35;1mSQL (320.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#update (for 127.0.0.1 at 2009-08-05 01:33:20) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"ylAicqMQAwJJd+i638jYW0mZ7xBGl1M+ou1cuugUGxM=", "id"=>"2", "recipe"=>{"title"=>"Product", "author"=>"Ryan", "description"=>"This is a description 2", "tag_list"=>"Lorenz New"}}
+  [4;36;1mRecipe Columns (338.0ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (935.6ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 2) [0m
+  [4;36;1mSQL (278.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTag Load (306.9ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (364.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (name LIKE 'Lorenz New') LIMIT 1[0m
+  [4;35;1mTag Load (290.6ms)[0m   [0mSELECT `tags`.id FROM `tags` WHERE (`tags`.`name` = BINARY 'Lorenz New') LIMIT 1[0m
+  [4;36;1mTag Create (419.2ms)[0m   [0;1mINSERT INTO `tags` (`name`) VALUES('Lorenz New')[0m
+  [4;35;1mTagging Create (413.7ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `created_at`) VALUES(5, 'Recipe', 2, '2009-08-04 17:33:23')[0m
+  [4;36;1mSQL (380.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/recipes/2
+Completed in 4480ms (DB: 4048) | 302 Found [http://0.0.0.0/recipes/2]
+  [4;35;1mSQL (297.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-05 01:33:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Columns (282.9ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (270.0ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 2) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;36;1mTag Load (335.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+Completed in 919ms (View: 24, DB: 1186) | 200 OK [http://0.0.0.0/recipes/2]
+  [4;35;1mSQL (274.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-05 01:33:30) [GET]
+  [4;36;1mRecipe Load (225.1ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (422.5ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (314.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (248.2ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (288.8ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (360.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 1881ms (View: 16, DB: 2134) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (315.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (240.4ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'New')) [0m
+  [4;36;1mRecipe Load (282.7ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+  [4;35;1mRecipe Columns (270.8ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (258.5ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Lorenz New')) [0m
+  [4;35;1mRecipe Load (338.2ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Lorenz New')) [0m
+  [4;36;1mSQL (615.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-06 02:01:46) [GET]
+  [4;35;1mRecipe Load (397.4ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (753.2ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (300.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;36;1mTag Load (508.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (264.9ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (444.3ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2957ms (View: 196, DB: 3284) | 200 OK [http://localhost/recipes]
+  [4;35;1mSQL (299.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2009-08-06 02:01:56) [GET]
+  [4;36;1mRecipe Columns (339.1ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 486ms (View: 78, DB: 639) | 200 OK [http://localhost/recipes/new]
+  [4;36;1mTag Columns (0.0ms)[0m   [0;1mMysql::Error: MySQL server has gone away: SHOW FIELDS FROM `tags`[0m
+  [4;35;1mSQL (340.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 01:49:26) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Columns (1010.6ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (525.2ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;36;1mTag Load (373.4ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+Completed in 2033ms (View: 46, DB: 2249) | 200 OK [http://0.0.0.0/recipes/3]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 01:49:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRecipe Load (386.8ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;36;1mRecipe Columns (422.7ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #3 of app/views/recipes/show.html.erb:
+1: <p>
+2:   <b>Title:</b>
+3:   <%=h @recipe.title %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/recipes/show.html.erb:3
+    app/controllers/recipes_controller.rb:18:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (2098.4ms)
+Rendered rescues/_request_and_response (60.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (333.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-07 01:51:25) [GET]
+  [4;36;1mRecipe Load (375.3ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (532.7ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (342.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (341.8ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (341.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (379.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2352ms (View: 11, DB: 2646) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (343.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 01:51:32) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mRecipe Columns (410.3ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (326.6ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 4) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;35;1mTag Load (327.2ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 1074ms (View: 4, DB: 1407) | 200 OK [http://0.0.0.0/recipes/4]
+  [4;36;1mSQL (363.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-07 01:51:38) [GET]
+  [4;35;1mRecipe Load (350.5ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (392.0ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (352.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;36;1mTag Load (360.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (363.2ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (368.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2206ms (View: 14, DB: 2551) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (393.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 01:51:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Columns (406.9ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (350.9ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;36;1mTag Load (315.3ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+Completed in 1124ms (View: 5, DB: 1466) | 200 OK [http://0.0.0.0/recipes/3]
+  [4;35;1mSQL (328.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-07 01:51:48) [GET]
+  [4;36;1mRecipe Load (335.9ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (333.0ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (341.1ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (335.1ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (337.8ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (347.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2053ms (View: 13, DB: 2359) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mTag Columns (0.0ms)[0m   [0mMysql::Error: MySQL server has gone away: SHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (353.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTag Columns (503.9ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (410.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Test') LIMIT 1[0m
+  [4;35;1mTagging Columns (471.7ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mSQL (460.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `taggings` WHERE (`taggings`.tag_id = 1) [0m
+  [4;36;1mSQL (339.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 02:01:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRecipe Columns (440.3ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (342.0ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+ERROR: compiling _run_erb_app47views47recipes47show46html46erb RAISED compile error
+/Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/views/recipes/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/views/recipes/show.html.erb:26: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47recipes47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Title:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @recipe.title ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Author:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @recipe.author ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Description:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @recipe.description ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+ unless @recipe.tag_list.empty? ; @output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Tag:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @recipe.tag_list ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Edit', edit_recipe_path(@recipe) ).to_s); @output_buffer.concat " |\n"
+@output_buffer.concat(( link_to 'Back', recipes_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/views/recipes/show.html.erb:26:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/controllers/recipes_controller.rb:18:in `show'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/Lorenz/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+-e:2:in `load'
+-e:2
+
+ActionView::TemplateError (compile error
+/Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/views/recipes/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/Lorenz/Documents/Aptana Studio Workspace/lorenzhk-egit-test/app/views/recipes/show.html.erb:26: syntax error, unexpected $end, expecting kEND) on line #24 of app/views/recipes/show.html.erb:
+21: 
+22: <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+23: <%= link_to 'Back', recipes_path %>
+
+    app/views/recipes/show.html.erb:26:in `compile!'
+    app/controllers/recipes_controller.rb:18:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (237.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (332.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2009-08-07 02:02:39) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Columns (363.7ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (339.1ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 3) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+  [4;36;1mTag Load (344.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+Completed in 1065ms (View: 11, DB: 1380) | 200 OK [http://0.0.0.0/recipes/3]
+  [4;36;1mSQL (473.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTag Columns (614.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (306.8ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Test') LIMIT 1[0m
+  [4;35;1mTagging Columns (325.5ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mSQL (218.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `taggings` WHERE (`taggings`.tag_id = 1) [0m
+  [4;35;1mTagging Load (707.7ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 1) LIMIT 1[0m
+  [4;36;1mTagging Load (429.5ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 1) LIMIT 1[0m
+  [4;35;1mRecipe Columns (441.9ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (305.1ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 1) [0m
+  [4;36;1mSQL (365.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:08:41) [GET]
+  [4;35;1mRecipe Load (455.2ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (663.5ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTagging Columns (370.4ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (339.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Columns (352.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (370.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (380.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (373.8ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 3662ms (View: 293, DB: 3670) | 200 OK [http://0.0.0.0/recipes]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:08:45) [GET]
+  [4;35;1mRecipe Load (362.2ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mSQL (354.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Columns (470.0ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #13 of app/views/recipes/index.html.erb:
+10: 
+11: <% @recipes.each do |recipe| %>
+12:   <tr>
+13:     <td><%=h recipe.title %></td>
+14:     <td><%=h recipe.author %></td>
+15:     <td><%=h recipe.description %></td>
+16: 	<td><%=h recipe.tag_list %></td>
+
+    app/views/recipes/index.html.erb:13
+    app/views/recipes/index.html.erb:11:in `each'
+    app/views/recipes/index.html.erb:11
+    app/controllers/recipes_controller.rb:7:in `index'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (120.6ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (322.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:11:55) [GET]
+  [4;35;1mRecipe Load (337.8ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (351.8ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (357.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;36;1mTag Load (343.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (339.5ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (352.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2108ms (View: 14, DB: 2405) | 200 OK [http://0.0.0.0/recipes]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:11:57) [GET]
+  [4;35;1mRecipe Load (361.8ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mSQL (355.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Columns (345.0ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #13 of app/views/recipes/index.html.erb:
+10: 
+11: <% @recipes.each do |recipe| %>
+12:   <tr>
+13:     <td><%=h recipe.title %></td>
+14:     <td><%=h recipe.author %></td>
+15:     <td><%=h recipe.description %></td>
+16: 	<td><%=h recipe.tag_list %></td>
+
+    app/views/recipes/index.html.erb:13
+    app/views/recipes/index.html.erb:11:in `each'
+    app/views/recipes/index.html.erb:11
+    app/controllers/recipes_controller.rb:7:in `index'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (59.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (335.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:13:24) [GET]
+  [4;35;1mRecipe Load (341.6ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (349.1ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (355.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;36;1mTag Load (440.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (357.8ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (357.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2312ms (View: 17, DB: 2537) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (328.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:13:54) [GET]
+  [4;36;1mRecipe Load (341.7ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (327.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (452.8ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (347.1ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (350.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (338.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2205ms (View: 21, DB: 2487) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (400.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:14:34) [GET]
+  [4;35;1mRecipe Load (349.0ms)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (355.8ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (362.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;36;1mTag Load (370.9ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;35;1mTag Load (388.5ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;36;1mTag Load (347.3ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2228ms (View: 29, DB: 2574) | 200 OK [http://0.0.0.0/recipes]
+  [4;35;1mSQL (320.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:15:11) [GET]
+  [4;36;1mRecipe Load (362.8ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (349.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (368.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (367.8ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (379.9ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (365.8ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 2234ms (View: 14, DB: 2515) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (365.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#new (for 127.0.0.1 at 2009-08-09 16:33:31) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (336.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#new (for 127.0.0.1 at 2009-08-09 16:33:49) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (345.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#index (for 127.0.0.1 at 2009-08-09 16:33:54) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (340.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#index (for 127.0.0.1 at 2009-08-09 16:34:32) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (396.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#index (for 127.0.0.1 at 2009-08-09 16:35:44) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (320.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:36:05) [GET]
+  Parameters: {"id"=>"New"}
+  [4;36;1mSQL (346.5ms)[0m   [0;1mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_tagged_with' for Tag(id: integer, name: string):Class):
+  app/controllers/tags_controller.rb:3:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (31.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (361.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:36:44) [GET]
+  Parameters: {"id"=>"New"}
+  [4;36;1mRecipe Load (26289.6ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'New')) [0m
+Rendering tags/show
+Completed in 26298ms (View: 3, DB: 26651) | 200 OK [http://0.0.0.0/tags/New]
+  [4;35;1mSQL (336.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:37:22) [GET]
+  Parameters: {"id"=>"Lorenz"}
+  [4;36;1mRecipe Load (349.5ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Lorenz')) [0m
+Rendering tags/show
+Completed in 357ms (View: 1, DB: 686) | 200 OK [http://0.0.0.0/tags/Lorenz]
+  [4;35;1mSQL (338.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:38:23) [GET]
+  Parameters: {"id"=>"Lorenz"}
+  [4;36;1mRecipe Load (342.9ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Lorenz')) [0m
+Rendering tags/show
+Completed in 353ms (View: 1, DB: 681) | 200 OK [http://0.0.0.0/tags/Lorenz]
+  [4;35;1mSQL (384.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:38:28) [GET]
+  Parameters: {"id"=>"Lorenz"}
+  [4;36;1mRecipe Load (338.0ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Lorenz')) [0m
+Rendering tags/show
+Completed in 344ms (View: 1, DB: 723) | 200 OK [http://0.0.0.0/tags/Lorenz]
+  [4;35;1mSQL (562.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:40:03) [GET]
+  [4;36;1mRecipe Load (757.5ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (727.3ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (974.9ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (1918.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (355.3ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (337.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 5088ms (View: 10, DB: 5633) | 200 OK [http://0.0.0.0/recipes]
+  [4;36;1mSQL (358.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:40:23) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;35;1mRecipe Load (341.0ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+
+ActionView::TemplateError (Missing template recipes/_recipe.erb in view path app/views) on line #3 of app/views/tags/show.html.erb:
+1: <h1>Tags#show</h1>
+2: <h2>Recipes tagged with <%= params[:id] %></h2>
+3: <% render :partial => @recipes %>
+
+    app/views/tags/show.html.erb:3
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (138.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (650.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:42:36) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;35;1mRecipe Load (1919.0ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.title) on line #3 of app/views/recipes/_recipe.html.erb:
+1: <p>
+2:   <b>Title:</b>
+3:   <%=h @recipe.title %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/recipes/_recipe.html.erb:3
+    app/views/tags/show.html.erb:3
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (50.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (340.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:44:23) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;35;1mRecipe Load (374.3ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+  [4;36;1mRecipe Columns (453.7ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mTag Load (351.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (808.0ms)
+Rendered recipes/_recipe (0.2ms)
+Completed in 1191ms (View: 7, DB: 1519) | 200 OK [http://0.0.0.0/tags/Test]
+  [4;36;1mSQL (575.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:45:14) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;35;1mRecipe Load (1931.9ms)[0m   [0mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+  [4;36;1mRecipe Columns (345.8ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.first) on line #8 of app/views/recipes/_recipe.html.erb:
+5: 
+6: <p>
+7:   <b>Author:</b>
+8:   <%=h @recipe.first.author %>
+9: </p>
+10: 
+11: <p>
+
+    app/views/recipes/_recipe.html.erb:8
+    app/views/tags/show.html.erb:3
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (48.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (325.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:46:20) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;36;1mRecipe Load (332.1ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (349.7ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (351.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (709.7ms)
+Rendered recipes/_recipe (0.3ms)
+Completed in 1050ms (View: 12, DB: 1358) | 200 OK [http://0.0.0.0/tags/Test]
+  [4;35;1mSQL (361.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:47:21) [GET]
+  Parameters: {"id"=>"test"}
+  [4;36;1mRecipe Load (369.8ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (392.5ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (364.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (760.3ms)
+Rendered recipes/_recipe (0.2ms)
+Completed in 1139ms (View: 7, DB: 1487) | 200 OK [http://0.0.0.0/tags/test]
+  [4;35;1mSQL (693.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:47:45) [GET]
+  Parameters: {"id"=>"test"}
+  [4;36;1mRecipe Load (1952.8ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (380.8ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (407.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (791.8ms)
+Rendered recipes/_recipe (0.2ms)
+Completed in 2751ms (View: 6, DB: 3435) | 200 OK [http://0.0.0.0/tags/test]
+  [4;35;1mSQL (320.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:48:14) [GET]
+  Parameters: {"id"=>"test"}
+  [4;36;1mRecipe Load (28571.7ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (351.3ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (373.3ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (727.9ms)
+Rendered recipes/_recipe (0.3ms)
+Completed in 29308ms (View: 5, DB: 29616) | 200 OK [http://0.0.0.0/tags/test]
+  [4;35;1mSQL (342.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:49:39) [GET]
+  Parameters: {"id"=>"test"}
+  [4;36;1mRecipe Load (356.5ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (343.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (365.2ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (711.4ms)
+Rendered recipes/_recipe (0.2ms)
+Completed in 1091ms (View: 4, DB: 1407) | 200 OK [http://0.0.0.0/tags/test]
+  [4;35;1mSQL (353.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:49:49) [GET]
+  Parameters: {"id"=>"test"}
+  [4;36;1mRecipe Load (338.0ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (347.0ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (370.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (721.7ms)
+Rendered recipes/_recipe (0.2ms)
+Completed in 1069ms (View: 7, DB: 1409) | 200 OK [http://0.0.0.0/tags/test]
+  [4;35;1mSQL (348.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-08-09 16:49:54) [GET]
+  Parameters: {"id"=>"Test"}
+  [4;36;1mRecipe Load (365.5ms)[0m   [0;1mSELECT DISTINCT recipes.* FROM `recipes` INNER JOIN taggings recipes_taggings ON recipes_taggings.taggable_id = recipes.id AND recipes_taggings.taggable_type = 'Recipe' INNER JOIN tags recipes_tags ON recipes_tags.id = recipes_taggings.tag_id WHERE ((recipes_tags.name LIKE 'Test')) [0m
+Rendering tags/show
+  [4;35;1mRecipe Columns (353.6ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (366.4ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+Rendered recipes/_recipe (723.5ms)
+Rendered recipes/_recipe (0.3ms)
+Completed in 1169ms (View: 5, DB: 1434) | 200 OK [http://0.0.0.0/tags/Test]
+  [4;35;1mSQL (705.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2009-08-09 16:50:07) [GET]
+  [4;36;1mRecipe Load (731.0ms)[0m   [0;1mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;35;1mRecipe Columns (686.4ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mTag Load (2030.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 1)) [0m
+  [4;35;1mTag Load (364.1ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 2)) [0m
+  [4;36;1mTag Load (372.4ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 3)) [0m
+  [4;35;1mTag Load (389.1ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Recipe') AND (`taggings`.taggable_id = 4)) [0m
+Completed in 4594ms (View: 15, DB: 5279) | 200 OK [http://0.0.0.0/Recipes]
